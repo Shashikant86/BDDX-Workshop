@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='BDDXUITAgainests.xctest' tests='4' failures='0'>
+  <testsuite name='BDDXUITests.BDDXUITests' tests='3' failures='0'>
+    <testcase classname='BDDXUITests.BDDXUITests' name='testAppHasEnterButton' time='25.630'/>
+    <testcase classname='BDDXUITests.BDDXUITests' name='testAppShouldWelcomeUser' time='32.860'/>
+    <testcase classname='BDDXUITests.BDDXUITests' name='testExample' time='0.018'/>
+  </testsuite>
+  <testsuite name='BDDXUITAgainests.BDDXUITAgainests' tests='1' failures='0'>
+    <testcase classname='BDDXUITAgainests.BDDXUITAgainests' name='testExample' time='5.770'/>
+  </testsuite>
+</testsuites>
