@@ -8,7 +8,6 @@
 
 import XCTest
 
-
 struct BDDXScreen {
     
     static var enterButton: XCUIElement {
@@ -42,12 +41,6 @@ enum BDDXLondon {
    
         
     }
-    
-    
-    
-    
-    
-    
 }
 
 
@@ -88,10 +81,6 @@ extension BDDX {
         XCTContext.runActivity(named: "When I tap on Enter button") { (activity)  in
            BDDXLondon.enterButton.element.tap()
         }
-        
-    
-        
-        
     }
     
     func thenIShouldSeeWelcomeMessage() {
@@ -99,17 +88,8 @@ extension BDDX {
         XCTContext.runActivity(named: "Then I Should see welcome message") { (activity)  in
             XCTAssertTrue(BDDXLondon.welcomeText.element.exists)
         }
-        
-        
-    
     }
-    
-    
-    
 }
-
-
-
 
 
 class BDDXUITests: XCTestCase, BDDX {
@@ -141,14 +121,6 @@ class BDDXUITests: XCTestCase, BDDX {
     override func tearDown() {
       
         super.tearDown()
-    }
-    
-    func testExample() {
-        
-        
-   
-        
-        
     }
     
 }
